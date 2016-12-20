@@ -99,6 +99,7 @@ You can optionally pass a *this context* to the `context` option.
 Because you can drag the edge of your screen to go back,
 
 ![back](https://cnet2.cbsistatic.com/img/MYRiTUkuSzBgOWfQnNPEYKnWmsY=/370x0/2013/09/12/cf8cd607-6de0-11e3-913e-14feb5ca9861/iOS_7_Gestures_Back.jpg)
+
 you'll need to manually add and remove the gesture recognition by calling their methods and passing the `Page` instance. 
 
 Let's say this is your home page.
