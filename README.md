@@ -116,6 +116,7 @@ export function onUnloaded(args: EventData) {
 ## Android Quirks
 None.
 
-
+# Thanks to
+[mikepenz](https://github.com/mikepenz) for the android [MaterialDrawer](https://github.com/mikepenz/MaterialDrawer) implementation.
 
 
