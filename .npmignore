@@ -1,0 +1,11 @@
+demo/
+screenshots/
+*.gif
+*.png
+*.log
+*.map
+*.ts
+!*.d.ts
+*.sublime-project
+*.idea
+*.DS_STORE

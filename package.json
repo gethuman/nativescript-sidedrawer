@@ -1,0 +1,57 @@
+{
+	"name": "nativescript-sidedrawer",
+	"version": "1.0.0",
+	"description": "Sidedrawer main menu plugin for Nativescript.",
+	"main": "nativescript-sidedrawer",
+	"typings": "index.d.ts",
+	"nativescript": {
+		"platforms": {
+			"android": "2.3.0",
+			"ios": "2.3.0"
+		}
+	},
+	"scripts": {
+		"build": "tsc",
+		"demo.ios": "npm run preparedemo && cd demo && tns emulate ios",
+		"demo.ios.device": "npm run preparedemo && cd demo && tns run ios",
+		"demo.android": "npm run preparedemo && cd demo && tns run android",
+		"preparedemo": "npm run build && cd demo && tns plugin remove nativescript-sidedrawer && tns plugin add .. && tns install",
+		"setup": "npm i && cd demo && npm i && cd .. && npm run build && cd demo && tns plugin add .. && cd ..",
+		"postclone": "npm i && node scripts/postclone.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/gethuman/nativescript-sidedrawer.git"
+	},
+	"keywords": [
+		"main",
+		"menu",
+		"mainmenu",
+		"side",
+		"drawer",
+		"sidedrawer",
+		"nativescript",
+		"ecosystem:nativescript",
+		"nativescript-android",
+		"nativescript-ios",
+		"JavaScript",
+		"Android",
+		"iOS"
+	],
+	"author": {
+		"name": "Robert Laverty",
+		"email": "roblav96@gmail.com"
+	},
+	"bugs": {
+		"url": "https://github.com/gethuman/nativescript-sidedrawer/issues"
+	},
+	"license": "MIT",
+	"homepage": "https://github.com/gethuman/nativescript-sidedrawer",
+	"readmeFilename": "README.md",
+	"devDependencies": {
+		"tns-core-modules": "latest",
+		"tns-platform-declarations": "latest",
+		"typescript": "latest"
+	}
+}
+

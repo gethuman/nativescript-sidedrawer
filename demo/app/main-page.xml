@@ -1,0 +1,22 @@
+<!--  -->
+
+<Page loaded="onLoaded" unloaded="onUnloaded">
+
+    <Page.actionBar>
+        <ActionBar title="Side Drawer Playground"></ActionBar>
+    </Page.actionBar>
+
+    <GridLayout rows="*">
+
+        <DockLayout row="0">
+            <StackLayout dock="top">
+                <Button class="button-large" text="Toggle It" tap="{{ toggleit }}" />
+                <Label text="Index:" style.fontSize="48" style.textAlignment="center" />
+                <Label text="{{ i }}" style.fontSize="72" style.textAlignment="center" />
+            </StackLayout>
+        </DockLayout>
+
+    </GridLayout>
+
+</Page>
+
