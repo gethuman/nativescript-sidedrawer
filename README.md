@@ -94,8 +94,7 @@ type TnsSideDrawerOptionsListener = (index: number) => void
 ```
 You can optionally pass a *this context* to the `context` option.
 
-## Quirks
-### iOS
+## iOS Quirks
 Because you can drag the edge of your screen to go back,
 
 ![back](https://cnet2.cbsistatic.com/img/MYRiTUkuSzBgOWfQnNPEYKnWmsY=/370x0/2013/09/12/cf8cd607-6de0-11e3-913e-14feb5ca9861/iOS_7_Gestures_Back.jpg)
@@ -114,7 +113,7 @@ export function onUnloaded(args: EventData) {
 }
 ```
 
-### Android
+## Android Quirks
 None.
 
 
