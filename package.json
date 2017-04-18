@@ -1,6 +1,6 @@
 {
 	"name": "nativescript-sidedrawer",
-	"version": "1.0.5",
+	"version": "1.0.6",
 	"description": "SideDrawer menu plugin for Nativescript - iOS/Android.",
 	"main": "nativescript-sidedrawer",
 	"typings": "index.d.ts",
