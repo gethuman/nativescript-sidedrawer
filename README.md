@@ -1,3 +1,6 @@
+# ATTENTION {N}v3
+We are waiting for a more stable {N}v3 release before updating this plugin. Thank you.
+
 # NativeScript-SideDrawer
 A Nativescript plugin that allows developers to simply integrate the infamous side drawer pattern.
 
